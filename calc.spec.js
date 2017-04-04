@@ -6,13 +6,13 @@ const { expect } = require('code');
 const { soma } = require('./calc');
 
 lab.test('somando números inteiros', (done) => {
-    expect(soma(2, 3)).to.equal(5);
-    expect(soma(20, 33)).to.equal(53);
+    expect(soma(2, 8)).to.equal(10);
+    expect(soma(20, 30)).to.equal(50);
     done();
 });
 
 lab.test('somando números negativos', (done) => {
-    expect(soma(-2, -5)).to.equal(-7);
+    expect(soma(-2, -8)).to.equal(-10);
     done();
 });
 
